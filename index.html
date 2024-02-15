@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mixue</title>
+    <!-- Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <!-- Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <!-- css -->
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+
+      a {
+        color: inherit;
+        text-decoration: none;
+      }
+
+      .bg-pink {
+        background: rgb(248, 224, 239);
+      }
+
+      .jamal {
+        text-shadow: 3px 3px 3px white;
+      }
+
+      .list-style-none {
+        list-style: none;
+      }
+
+      section {
+        scroll-margin-top: 80px;
+      }
+    </style>
+    <link rel="icon" href="assets/logo.jpg" />
+  </head>
+  <body>
+    <!-- NAVBAR START -->
+    <header>
+      <nav
+        class="navbar navbar-expand-lg bg-light border-bottom border-2 fixed-top"
+      >
+        <div class="container-fluid">
+          <img src="assets/logo.jpg" alt="logo" width="150px" class="ms-5" />
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse me-5" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item me-3">
+                <a class="nav-link text-dark" aria-current="page" href="#about"
+                  >About</a
+                >
+              </li>
+              <li class="nav-item me-3">
+                <a class="nav-link text-dark nav" href="#products">Products</a>
+              </li>
+              <li class="nav-item me-3">
+                <a class="nav-link text-dark nav" href="#franchise"
+                  >Franchise</a
+                >
+              </li>
+              <li class="nav-item me-3">
+                <a
+                  class="nav-link text-dark nav"
+                  aria-disabled="true"
+                  href="#contact"
+                  >Contact Us</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- NAVBAR END -->
+
+    <!-- MAIN START -->
+    <main class="mt-5">
+      <!-- HERO BANNER START -->
+      <section class="bg-danger bg-gradient text-center p-5 text-sm-start">
+        <div class="container">
+          <div class="d-sm-flex flex-row-reverse">
+            <img src="assets/hero.webp" alt="hero" class="img-fluid" />
+            <div>
+              <h1 class="fw-bold display-4 lh-sm text-shadow">
+                Share Swetness &<br />Spread Happiness
+              </h1>
+              <h4 class="fw-light display-6 pb-2 px-3">
+                I love you, you love me, Mixuce Ice Cream and Tea
+              </h4>
+              <button class="btn btn-primary mb-5 btn-lg">BUY NOW</button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- HERO BANNER END -->
+
+      <!-- ABOUT START -->
+      <section id="about" class="text-center mt-5">
+        <div class="container-fluid">
+          <h1 class="text-danger fw-bold display-5 mb-3 display-5">About Us</h1>
+          <div class="row d-flex justify-content-evenly">
+            <div class="col mb-3">
+              <img src="assets/about1.jpg" alt="about-1" width="300" />
+            </div>
+            <div class="col mb-5">
+              <img src="assets/about2.jpg" alt="about-2" width="300" />
+            </div>
+            <div class="col mb-5">
+              <img src="assets/about3.jpg" alt="about-3" width="300" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ABOUT END -->
+
+      <!-- PRODUCTS START -->
+      <section id="products" class="mt-5 pt-3 bg-pink">
+        <div class="container">
+          <h1 class="text-center text-danger fw-bold my-3 display-5">
+            Our Products
+          </h1>
+          <div class="row row-cols-1 row-cols-md-3 g-4 justify-content-evenly">
+            <div class="col">
+              <div class="card">
+                <img src="assets/product1.jpg" class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <h5 class="card-title">Boba Sundae</h5>
+                  <p class="card-text">
+                    Perpaduan es krim vanila, saus brown sugar, dan bola bubble
+                    yang nikmat dijamin bikin kamu ketagihan dan ingin lagi
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="assets/product2.jpg" class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <h5 class="card-title">Strawberry Ice Cream</h5>
+                  <p class="card-text">
+                    Lucky Sundae Strawberry Ice Cream berisi es krim vanila
+                    dengan topping stroberi segar di atasnya
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="assets/product3.jpg" class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <h5 class="card-title">Berrybean Ice Cream</h5>
+                  <p class="card-text">
+                    Perpaduan manisnya es krim dan berry bean serta asam
+                    stroberi dijamin bakal memanjakan lidah!
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="assets/product4.jpg" class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <h5 class="card-title">Mango Sundae</h5>
+                  <p class="card-text">
+                    Kamu bakal merasakan perpaduan manis es krim dan kesegaran
+                    buah mangga yang pastinya bikin nagih!
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col mb-5">
+              <div class="card">
+                <img src="assets/product5.jpg" class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">
+                    Milk tea yang dingin dengan manisnya brown sugar dan boba
+                    pearis pastinya bakal memuaskan dahaga dan lidah kamu
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- PRODUCTS END -->
+
+      <!-- FRANCHISE START -->
+      <section id="franchise" class="my-5">
+        <div class="container">
+          <h1 class="text-center text-danger fw-bold display-5">Franchise</h1>
+          <div class="d-md-flex align-items-center text-center text-sm-start">
+            <div>
+              <img src="assets/franchise.png" height="300" alt="franchise" />
+            </div>
+
+            <div>
+              <p class="lead fw-normal">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis
+                earum error inventore aspernatur nemo architecto magnam, nam
+                reprehenderit repellat, deserunt dicta tenetur, excepturi nihil
+                dignissimos repudiandae dolores quibusdam iure saepe ducimus id
+                sint possimus placeat. Impedit reprehenderit doloremque aperiam
+                ipsum?
+              </p>
+              <button class="btn btn-danger p-2">Join Our Partnership</button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- FRANCHISE END -->
+
+      <!-- CONTACT START -->
+      <section id="contact" class="bg-pink">
+        <div class="container py-3">
+          <h1 class="text-danger fw-bold text-center display-5 mb-3">
+            Contact Us
+          </h1>
+          <div class="row g-4">
+            <div class="col-md-6">
+              <div class="mb-3">
+                <label for="name" class="form-label">Name</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="name"
+                  placeholder="Name"
+                />
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="email"
+                  placeholder="Email"
+                />
+              </div>
+              <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label"
+                  >Message</label
+                >
+                <textarea
+                  class="form-control"
+                  id="exampleFormControlTextarea1"
+                  rows="3"
+                ></textarea>
+                <button class="btn btn-danger px-3 mt-3">Submit</button>
+              </div>
+            </div>
+            <div class="col-md-6 text-center">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d127441.55024973843!2d114.717821953004!3d-3.4593181810373306!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2de686ad57aa9fdf%3A0xd1f27863d3f52ead!2sBanjarbaru%2C%20Kota%20Banjar%20Baru%2C%20Kalimantan%20Selatan!5e0!3m2!1sid!2sid!4v1707915677559!5m2!1sid!2sid"
+                width="600"
+                height="400"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+                class="w-100"
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- CONTACT END -->
+    </main>
+    <!-- MAIN END -->
+
+    <!-- FOOTER START -->
+    <footer class="text-center">
+      <div class="container">
+        <div class="mt-4">
+          <a href="#" class="me-2"><i class="bi bi-instagram fs-2"></i></a>
+          <a href="#" class="me-2"><i class="bi bi-facebook fs-2"></i></a>
+          <a href="#" class="me-2"><i class="bi bi-whatsapp fs-2"></i></a>
+        </div>
+        <div>
+          <p class="fs-5 text-center">
+            Copyright&copy;2024 Muhammad Jamalullail
+          </p>
+        </div>
+      </div>
+    </footer>
+    <!-- FOOTER END -->
+
+    <!-- JAVASCRIPT CDN START -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <!-- JAVASCRIPT CDN END -->
+
+    <!-- JAVASCRIPT SYNTAX -->
+    <script></script>
+    <!-- JAVASCRIPT SYNTAX END -->
+  </body>
+</html>
